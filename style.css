@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* left column */
+
+.left-column {
+  background-color: #4d44b5;
+  color: white;
+  padding: 40px 180px;
+}
+
+.left-column div {
+  margin: 20px 0;
+}
+
+
+.checks {
+  justify-content: start;
+  align-items: start;
+}
+
+.left-column .check-text {
+  margin: 0;
+}
+
+.checks .check-text * {
+  margin: 0 5px;
+}
+
+/* left buttons */
+
+.buttons {
+  margin: auto;
+  width: 105%;
+}
+
+.join-button {
+  padding: 10px;
+  background-color: aqua;
+  color: white;
+  width: 13rem;
+  border: none;
+}
+
+.join-button:hover {
+  color: #4d44b5;
+  transition: all 0.3s ease-in;
+}
+
+.watch-button {
+  padding: 10px;
+  background-color: transparent;
+  border: #4d44b5 solid 2px;
+  color: white;
+  width: 13rem;
+}
+
+
+.watch-button:hover {
+  border: solid white 2px;
+  transition: all 0.3s ease-in;
+}
+
+.watch-button * {
+  margin: 0 4px;
+}
+
+
+
+/* right side */
+
+.right-side {
+  background-image: url("https://cdn.static.aptavs.com/imagenes/ejercicios-basicos-de-gimnasio-cuales-son-y-su-importancia/ejercicios-basicos-de-gimnasio.jpg");
+}
+
+
+/* footer */
+
+.end-row {
+  border: solid red 2px;
+  padding: 10px;
+}
+
+.end-row .col {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end-row .col img {
+  height: 70px;
+}
