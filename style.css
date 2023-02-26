@@ -3,12 +3,39 @@
   margin: 0;
 }
 
+.primary-row {
+  min-height: 610px;
+}
+
 /* left column */
 
 .left-column {
   background-color: #4d44b5;
   color: white;
   padding: 40px 180px;
+}
+
+@media screen and (max-width: 767px){
+  .left-column {
+    padding: 10px;
+  }
+
+  .left-column p,
+  .left-column h1 {
+    text-align: center;
+  }
+
+  .join, .watch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+
+
 }
 
 /* @media screen and (max-width: 767px){
@@ -79,6 +106,8 @@
 
 .right-side {
   background-image: url("https://cdn.static.aptavs.com/imagenes/ejercicios-basicos-de-gimnasio-cuales-son-y-su-importancia/ejercicios-basicos-de-gimnasio.jpg");
+  background-size: 150% auto;
+  background-repeat: no-repeat;
 }
 
 
